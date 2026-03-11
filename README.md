@@ -1,8 +1,8 @@
 # ☁️ Cloud & DevOps Project Portfolio
 
-Welcome to my DevOps portfolio! I am a DevOps Engineer with a strong background in on-premise infrastructure, Linux system administration, and Ansible automation, currently expanding my expertise into Cloud Architecture (AWS, Azure, GCP).
+Welcome to my DevOps portfolio! I am a DevOps Engineer with a strong background in on-premise infrastructure, Linux system administration, and Ansible automation. I am currently expanding my expertise into Cloud Architecture across AWS, Azure, and GCP.
 
-This repository contains hands-on projects that demonstrate my ability to design, provision, and manage scalable cloud environments using **Infrastructure as Code (IaC)**, **CI/CD pipelines**, and **modern monitoring tools**.
+This repository contains hands-on projects that demonstrate my ability to design, provision, and manage scalable cloud environments using Infrastructure as Code (IaC), CI/CD pipelines, and modern monitoring tools.
 
 ---
 
@@ -20,43 +20,74 @@ This repository contains hands-on projects that demonstrate my ability to design
 
 ---
 
-## 📂 Project Directory
+## 📂 DevOps Learning Roadmap & Project Directory
 
-Below is a categorized list of my projects. Each project folder contains its own `README.md` with detailed **architecture diagrams**, **deployment steps**, and **troubleshooting logs**.
+This section documents my 5-month journey transitioning from on-premise Linux/Ansible automation to Cloud-Native DevOps. 
 
-### 🟠 AWS Projects
-| Project Name | Description | Key Tech Used | Link |
+### 🟢 Phase 1: Foundation (Months 1-2)
+Building core AWS networking, compute, and security fundamentals.
+
+| Status | Project | Tech Stack | Link |
 |---|---|---|---|
-| **01-vpc-ec2-terraform** | Automated deployment of a highly available custom VPC and EC2 instances. | Terraform, AWS VPC, EC2 | [View Project](./AWS/01-vpc-ec2-terraform/) |
-| **02-ansible-web-config** | Provisioned AWS infrastructure with Terraform and configured Apache/Nginx via Ansible. | Terraform, Ansible, Linux | [View Project](./AWS/02-ansible-web-config/) |
-| **03-ci-cd-pipeline** | End-to-end automated deployment pipeline using GitHub Actions and AWS ECS. | GitHub Actions, Docker, ECS | [View Project](./AWS/03-ci-cd-pipeline/) |
-| *(More projects coming soon...)* | | | |
+| ⏳ | **Static Website on S3 + CloudFront + Route53** | S3, CloudFront, Route53, ACM | [Coming Soon]() |
+| ⏳ | **EC2 Web Server with Apache/Nginx** | EC2, Linux, Bash, Ansible | [Coming Soon]() |
+| ⏳ | **Custom VPC Setup** | VPC, Subnets, SG, NACLs | [Coming Soon]() |
+| ⏳ | **IAM Roles & Policies** | IAM, Security | [Coming Soon]() |
+| ⏳ | **CloudWatch Monitoring + SNS Alerts** | CloudWatch, SNS | [Coming Soon]() |
 
-### 🔵 Azure Projects
-| Project Name | Description | Key Tech Used | Link |
-|---|---|---|---|
-| *(Coming Soon)* | Expanding multi-cloud architecture skills. | Azure Resource Manager | |
+### 🟡 Phase 2: Core DevOps & IaC (Months 2-3)
+Introducing automation, high availability, and Infrastructure as Code.
 
-### 🟢 GCP Projects
-| Project Name | Description | Key Tech Used | Link |
+| Status | Project | Tech Stack | Link |
 |---|---|---|---|
-| *(Coming Soon)* | Expanding multi-cloud architecture skills. | Google Cloud Platform | |
+| ⏳ | **Multi-Tier App Architecture** | VPC, ALB, EC2, RDS | [Coming Soon]() |
+| ⏳ | **Auto Scaling with ALB & CloudWatch** | ASG, ALB, CloudWatch | [Coming Soon]() |
+| ⏳ | **CI/CD with CodePipeline / GitHub Actions** | CodePipeline, GitHub Actions | [Coming Soon]() |
+| ⏳ | **Terraform for AWS** | Terraform, VPC, EC2, RDS | [Coming Soon]() |
+| ⏳ | **CloudFormation Stack Deployment** | AWS CloudFormation | [Coming Soon]() |
+
+### 🟠 Phase 3: Advanced Cloud Architecture (Months 3-4)
+Container orchestration, serverless, and enterprise security.
+
+| Status | Project | Tech Stack | Link |
+|---|---|---|---|
+| ⏳ | **Kubernetes on EKS** | EKS, Docker, Kubernetes | [Coming Soon]() |
+| ⏳ | **Blue-Green Deployment on ECS** | ECS, Fargate, Docker | [Coming Soon]() |
+| ⏳ | **Serverless API** | Lambda, API Gateway, DynamoDB | [Coming Soon]() |
+| ⏳ | **Multi-Region Disaster Recovery** | Route53, S3, RDS Replication | [Coming Soon]() |
+| ⏳ | **Security Hardening** | WAF, GuardDuty, AWS Config | [Coming Soon]() |
+
+### 🔴 Phase 4: Specialization (Months 4-5)
+Advanced DevOps workflows and observability.
+
+| Status | Project | Tech Stack | Link |
+|---|---|---|---|
+| ⏳ | **GitOps with ArgoCD on EKS** | ArgoCD, EKS, Git | [Coming Soon]() |
+| ⏳ | **ELK Stack on AWS** | Elasticsearch, Logstash, Kibana | [Coming Soon]() |
+| ⏳ | **Self-Healing Infrastructure** | Auto Scaling, Lambda | [Coming Soon]() |
 
 ---
 
 ## 💡 My Engineering Philosophy
 
-I believe that real DevOps is not just about writing code that works on the "happy path." It is about building resilient systems. In these projects, I emphasize:
-1. **Infrastructure as Code (IaC):** Every manual click in the UI is translated into reproducible Terraform or Ansible code.
-2. **Visual Documentation:** Every project includes custom architecture diagrams.
-3. **Problem Solving:** I document the real-world errors I face (e.g., IAM permission faults, GPG signature issues, high CPU load debugging) and how I resolve them using tools like `tcpdump` and `top`.
+**Infrastructure as Code (IaC)**
+Every manual configuration is eventually translated into reproducible Terraform or Ansible code. Automation is the key to scalability and reliability.
+
+**Visual Documentation**
+A system is only as good as its documentation. Every project included here features custom architecture diagrams to clearly map out the cloud environment and traffic flow.
+
+**Problem Solving & Troubleshooting**
+I document the real-world errors I face (e.g., IAM permission faults, playbook execution errors, high bandwidth usage) and detail exactly how I resolve them using native Linux tools like `tcpdump` and `top` alongside cloud monitoring.
 
 ---
 
 ## 📫 Let's Connect
 
-If you are a recruiter, hiring manager, or fellow engineer, I would love to connect!
+If you are a recruiter, hiring manager, or fellow engineer, I would love to connect and discuss all things DevOps!
 
-* **Email:** usamakhatri@dollicons.com
-* **LinkedIn:** [Insert Your LinkedIn URL Here]
+| Contact Method | Details |
+|---|---|
+| **Email** | afzalusama77@gmail.com |
+| **LinkedIn** | https://www.linkedin.com/in/usama-muhammad-afzal-73a2a723b/ |
+| **GitHub** | https://github.com/Usama-Afzal |
 
