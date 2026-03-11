@@ -20,51 +20,19 @@ This repository contains hands-on projects that demonstrate my ability to design
 
 ---
 
-## 📂 DevOps Learning Roadmap & Project Directory
+## 📂 Project Directory
 
-This section documents my 5-month journey transitioning from on-premise Linux/Ansible automation to Cloud-Native DevOps. 
+I believe in continuous delivery! I am actively building and documenting cloud architectures step-by-step. Below are my completed and currently active projects.
 
-### 🟢 Phase 1: Foundation (Months 1-2)
+### 🟢 Phase 1: Cloud Foundations
 Building core AWS networking, compute, and security fundamentals.
 
 | Status | Project | Tech Stack | Link |
 |---|---|---|---|
-| ⏳ | **Static Website on S3 + CloudFront + Route53** | S3, CloudFront, Route53, ACM | [Coming Soon]() |
-| ⏳ | **EC2 Web Server with Apache/Nginx** | EC2, Linux, Bash, Ansible | [Coming Soon]() |
-| ⏳ | **Custom VPC Setup** | VPC, Subnets, SG, NACLs | [Coming Soon]() |
-| ⏳ | **IAM Roles & Policies** | IAM, Security | [Coming Soon]() |
-| ⏳ | **CloudWatch Monitoring + SNS Alerts** | CloudWatch, SNS | [Coming Soon]() |
+| 🚧 | **Static Website on S3 + CloudFront + Route53** | S3, CloudFront, Route53, ACM | *In Progress* |
+| 📅 | **EC2 Web Server with Apache/Nginx** | EC2, Linux, Bash, Ansible | *Up Next* |
 
-### 🟡 Phase 2: Core DevOps & IaC (Months 2-3)
-Introducing automation, high availability, and Infrastructure as Code.
-
-| Status | Project | Tech Stack | Link |
-|---|---|---|---|
-| ⏳ | **Multi-Tier App Architecture** | VPC, ALB, EC2, RDS | [Coming Soon]() |
-| ⏳ | **Auto Scaling with ALB & CloudWatch** | ASG, ALB, CloudWatch | [Coming Soon]() |
-| ⏳ | **CI/CD with CodePipeline / GitHub Actions** | CodePipeline, GitHub Actions | [Coming Soon]() |
-| ⏳ | **Terraform for AWS** | Terraform, VPC, EC2, RDS | [Coming Soon]() |
-| ⏳ | **CloudFormation Stack Deployment** | AWS CloudFormation | [Coming Soon]() |
-
-### 🟠 Phase 3: Advanced Cloud Architecture (Months 3-4)
-Container orchestration, serverless, and enterprise security.
-
-| Status | Project | Tech Stack | Link |
-|---|---|---|---|
-| ⏳ | **Kubernetes on EKS** | EKS, Docker, Kubernetes | [Coming Soon]() |
-| ⏳ | **Blue-Green Deployment on ECS** | ECS, Fargate, Docker | [Coming Soon]() |
-| ⏳ | **Serverless API** | Lambda, API Gateway, DynamoDB | [Coming Soon]() |
-| ⏳ | **Multi-Region Disaster Recovery** | Route53, S3, RDS Replication | [Coming Soon]() |
-| ⏳ | **Security Hardening** | WAF, GuardDuty, AWS Config | [Coming Soon]() |
-
-### 🔴 Phase 4: Specialization (Months 4-5)
-Advanced DevOps workflows and observability.
-
-| Status | Project | Tech Stack | Link |
-|---|---|---|---|
-| ⏳ | **GitOps with ArgoCD on EKS** | ArgoCD, EKS, Git | [Coming Soon]() |
-| ⏳ | **ELK Stack on AWS** | Elasticsearch, Logstash, Kibana | [Coming Soon]() |
-| ⏳ | **Self-Healing Infrastructure** | Auto Scaling, Lambda | [Coming Soon]() |
+*(More advanced projects focusing on IaC, CI/CD, and Kubernetes will be published here as they are deployed!)*
 
 ---
 
