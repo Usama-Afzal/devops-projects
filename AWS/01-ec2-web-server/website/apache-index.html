@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usama Afzal - EC2 Web Server</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0a0a23;
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #232f3e, #ff9900);
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        .info-box {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #ff9900;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ff9900;
+            padding-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        td, th {
+            padding: 12px;
+            border: 1px solid #333;
+            text-align: left;
+        }
+        th { background: #232f3e; color: #ff9900; }
+        .badge {
+            background: #ff9900;
+            color: #000;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #333;
+            margin-top: 40px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Usama Afzal</h1>
+        <p>EC2 Web Server - Apache on Amazon Linux 2023</p>
+    </header>
+
+    <div class="info-box">
+        <h2>Server Information</h2>
+        <table>
+            <tr><th>Component</th><th>Details</th></tr>
+            <tr><td>Web Server</td><td>Apache (httpd)</td></tr>
+            <tr><td>OS</td><td>Amazon Linux 2023</td></tr>
+            <tr><td>Instance Type</td><td>t2.micro (Free Tier)</td></tr>
+            <tr><td>Deployed Via</td><td>EC2 User Data Script</td></tr>
+        </table>
+    </div>
+
+    <div class="info-box">
+        <h2>AWS Services Used</h2>
+        <span class="badge">EC2</span>
+        <span class="badge">VPC</span>
+        <span class="badge">Security Groups</span>
+        <span class="badge">Key Pairs</span>
+    </div>
+
+    <div class="info-box">
+        <h2>Skills Demonstrated</h2>
+        <table>
+            <tr><th>Skill</th><th>What I Did</th></tr>
+            <tr><td>EC2 Instance Launch</td><td>Configured AMI, instance type, networking</td></tr>
+            <tr><td>Security Groups</td><td>Configured firewall rules for SSH and HTTP</td></tr>
+            <tr><td>User Data</td><td>Automated Apache installation at boot</td></tr>
+            <tr><td>Linux Admin</td><td>Apache/Nginx configuration</td></tr>
+            <tr><td>SSH Access</td><td>Key pair based authentication</td></tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>Built by Usama Afzal | 2025</p>
+    </footer>
+</body>
+</html>
+

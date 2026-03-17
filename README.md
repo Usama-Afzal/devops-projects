@@ -24,15 +24,37 @@ This repository contains hands-on projects that demonstrate my ability to design
 
 I believe in continuous delivery! I am actively building and documenting cloud architectures step-by-step. Below are my completed and currently active projects.
 
-### 🟢 Phase 1: Cloud Foundations
-Building core AWS networking, compute, and security fundamentals.
+## AWS Projects
 
-| Status | Project | Tech Stack | Link |
-|---|---|---|---|
-| 🚧 | **Static Website on S3 + CloudFront + Route53** | S3, CloudFront, Route53, ACM | *In Progress* |
-| 📅 | **EC2 Web Server with Apache/Nginx** | EC2, Linux, Bash, Ansible | *Up Next* |
+| # | Project | Services Used | Status |
+|---|---------|--------------|--------|
+| 01 | [Static Website Hosting on S3](./aws/01-static-website-s3/) | S3, Bucket Policies | ✅ Completed |
+| 02 | [EC2-Based Web Server (Apache + Nginx)](./aws/02-ec2-web-server/) | EC2, Security Groups, Key Pairs | ✅ Completed |
+| 03 | Scalable Web App with ALB & Auto Scaling | EC2, ALB, Auto Scaling, CloudWatch | 🔲 Upcoming |
+| 04 | Multi-Tier Web App Deployment | VPC, ALB, EC2, RDS | 🔲 Upcoming |
+| 05 | CI/CD Pipeline | CodePipeline, CodeBuild, CodeDeploy | 🔲 Upcoming |
+| 06 | Infrastructure as Code with Terraform | Terraform, VPC, EC2, RDS | 🔲 Upcoming |
+| 07 | Kubernetes Deployment on EKS | EKS, kubectl, Helm | 🔲 Upcoming |
+| 08 | Serverless API with Lambda | Lambda, API Gateway, DynamoDB | 🔲 Upcoming |
+| 09 | Monitoring & Logging | CloudWatch, SNS, CloudTrail | 🔲 Upcoming |
+| 10 | IAM & Security Hardening | IAM, Config Rules, GuardDuty | 🔲 Upcoming |
+| 11 | Blue-Green Deployment on ECS | ECS, Fargate, ALB | 🔲 Upcoming |
+| 12 | Disaster Recovery Multi-Region | S3 Replication, RDS Multi-AZ, Route 53 | 🔲 Upcoming |
+| 13 | Automated Cost Optimization | Lambda, CloudWatch, Billing | 🔲 Upcoming |
+| 14 | Self-Healing Infrastructure | Auto Scaling, CloudWatch Alarms | 🔲 Upcoming |
+| 15 | Database Migration with DMS | DMS, RDS MySQL, Aurora | 🔲 Upcoming |
 
-*(More advanced projects focusing on IaC, CI/CD, and Kubernetes will be published here as they are deployed!)*
+## Azure Projects
+
+| # | Project | Services Used | Status |
+|---|---------|--------------|--------|
+| - | Coming soon | - | 🔲 Upcoming |
+
+## GCP Projects
+
+| # | Project | Services Used | Status |
+|---|---------|--------------|--------|
+| - | Coming soon | - | 🔲 Upcoming |
 
 ---
 
