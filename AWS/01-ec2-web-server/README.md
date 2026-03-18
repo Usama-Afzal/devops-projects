@@ -6,7 +6,7 @@ Launched an EC2 instance on AWS running Amazon Linux 2023 with automated web ser
 ---
 
 ## Architecture
-(screenshots/diagram.png)
+![Architecture Diagram](screenshots/diagram.png)
 
 ---
 
