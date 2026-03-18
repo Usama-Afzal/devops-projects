@@ -1,5 +1,4 @@
 # AWS EC2 Web Server Project
-
 # AWS EC2 Web Server Project
 
 ## Overview
