@@ -1,8 +1,30 @@
 # AWS EC2 Web Server Project
 
+# AWS EC2 Web Server Project
+
 ## Overview
 Launched an EC2 instance on AWS running Amazon Linux 2023 with automated web server installation using User Data scripts. Configured and tested both Apache (httpd) and Nginx web servers, demonstrating Linux system administration, AWS compute fundamentals, and infrastructure security through Security Groups.
 
+---
+
+## Architecture
+
+```mermaid
+graph TB
+    User[👤 User Browser] -->|HTTP Port 80| SG
+    Admin[🔑 Admin] -->|SSH Port 22| SG
+    
+    subgraph AWS Cloud
+        subgraph VPC - Default
+            SG[🔒 Security Group\nPort 22 - My IP\nPort 80 - 0.0.0.0/0]
+            subgraph Public Subnet
+                EC2[💻 EC2 Instance\nt2.micro\nAmazon Linux 2023]
+            end
+        end
+    end
+    
+    SG --> EC2
+    EC2 -->|Serves| Web[🌐 Website]
 ---
 
 ## Services & Tools Used
