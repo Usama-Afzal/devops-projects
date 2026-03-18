@@ -26,7 +26,7 @@ Launched an EC2 instance on AWS running Amazon Linux 2023 with automated web ser
 5. **Verified website** accessible via public IP in browser.
 6. **SSH'd into the server** and explored Apache configuration and logs.
 7. **Installed Nginx** and switched from Apache to demonstrate both web servers.
-8. **Tested both web servers** serving content on port 80.
+8. **Troubleshot Caching:** Verified service transitions using `curl -v` to bypass browser-side persistence.
 
 ---
 
@@ -36,7 +36,7 @@ Launched an EC2 instance on AWS running Amazon Linux 2023 with automated web ser
 * **Directory Paths:** Apache serves from `/var/www/html/`, Nginx serves from `/usr/share/nginx/html/`.
 * **Port Management:** Only one web server can listen on port 80 at a time.
 * **Systemd:** `systemctl enable` makes a service start on boot, `start` runs it immediately.
-* **Encryption:** Key pairs use asymmetric encryption (public key on server, private key with user).
+* **Cache Persistence:** Learned that `curl` is the source of truth for server-side changes when browsers/ISPs cache content.
 
 ---
 
@@ -45,15 +45,15 @@ Launched an EC2 instance on AWS running Amazon Linux 2023 with automated web ser
 <summary>Click to view project evidence</summary>
 
 ### Network & Security
-![Security Group Rules](01-ec2-web-server/screenshots/01-security-group-inbound-rules.png)
+![Security Group Rules](screenshots/01-security-group-inbound-rules.png)
 
 ### Instance Management
-![EC2 Instance Status](01-ec2-web-server/screenshots/02-ec2-instance-running.png)
-![SSH Terminal](01-ec2-web-server/screenshots/04-ssh-terminal-connected.png)
+![EC2 Instance Status](screenshots/02-ec2-instance-running.png)
+![SSH Terminal](screenshots/04-ssh-terminal-connected.png)
 
 ### Web Server Verification
-![Apache Browser](01-ec2-web-server/screenshots/03-apache-website-browser.png)
-![Nginx Browser](01-ec2-web-server/screenshots/05-nginx-website-browser.png)
+![Apache Browser](screenshots/03-apache-website-browser.png)
+![Nginx Browser](screenshots/05-nginx-website-browser.png)
 
 </details>
 
