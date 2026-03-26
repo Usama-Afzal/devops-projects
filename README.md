@@ -30,11 +30,11 @@ I believe in continuous delivery! I am actively building and documenting cloud a
 |---|---------|--------------|--------|
 | 01 | [EC2-Based Web Server (Apache + Nginx)](/AWS/01-ec2-web-server/) | EC2, Security Groups, Key Pairs | ✅ Completed |
 | 02 | [AWS Multi-Tier Web Application](/AWS/02-multi-tier-web-app-deployment) | VPC, ALB, EC2, RDS | ✅ Completed |
-| 03 | Scalable Web App with ALB & Auto Scaling | EC2, ALB, Auto Scaling, CloudWatch | 🔲 Upcoming |
+| 03 | [Serverless API with Lambda](/AWS/03-url-shortener-serverless) | Lambda, API Gateway, DynamoDB | ✅ Completed |
 | 04 | CI/CD Pipeline | CodePipeline, CodeBuild, CodeDeploy | 🔲 Upcoming |
 | 05 | Infrastructure as Code with Terraform | Terraform, VPC, EC2, RDS | 🔲 Upcoming |
 | 06 | Kubernetes Deployment on EKS | EKS, kubectl, Helm | 🔲 Upcoming |
-| 07 | Serverless API with Lambda | Lambda, API Gateway, DynamoDB | 🔲 Upcoming |
+| 07 | Scalable Web App with ALB & Auto Scaling | EC2, ALB, Auto Scaling, CloudWatch | 🔲 Upcoming |
 | 08 | Monitoring & Logging | CloudWatch, SNS, CloudTrail | 🔲 Upcoming |
 | 09 | IAM & Security Hardening | IAM, Config Rules, GuardDuty | 🔲 Upcoming |
 | 10 | Blue-Green Deployment on ECS | ECS, Fargate, ALB | 🔲 Upcoming |
