@@ -4,6 +4,8 @@ A highly scalable, cost-effective URL shortening service built using AWS serverl
 
 ## 🏗️ Architecture
 
+![Architecture Diagram](docs/architechture.png)
+
 The service follows a standard serverless pattern:
 1. **Amazon API Gateway**: Acts as the entry point, handling HTTP requests (POST for shortening, GET for redirection).
 2. **AWS Lambda**: Processes the business logic, including generating short codes and managing redirects.
