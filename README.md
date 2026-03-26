@@ -29,8 +29,8 @@ I believe in continuous delivery! I am actively building and documenting cloud a
 | # | Project | Services Used | Status |
 |---|---------|--------------|--------|
 | 01 | [EC2-Based Web Server (Apache + Nginx)](/AWS/01-ec2-web-server/) | EC2, Security Groups, Key Pairs | ✅ Completed |
-| 02 | Scalable Web App with ALB & Auto Scaling | EC2, ALB, Auto Scaling, CloudWatch | 🔲 Upcoming |
-| 03 | Multi-Tier Web App Deployment | VPC, ALB, EC2, RDS | 🔲 Upcoming |
+| 02 | [AWS Multi-Tier Web Application](/AWS/02-multi-tier-web-app-deployment) | VPC, ALB, EC2, RDS | ✅ Completed |
+| 03 | Scalable Web App with ALB & Auto Scaling | EC2, ALB, Auto Scaling, CloudWatch | 🔲 Upcoming |
 | 04 | CI/CD Pipeline | CodePipeline, CodeBuild, CodeDeploy | 🔲 Upcoming |
 | 05 | Infrastructure as Code with Terraform | Terraform, VPC, EC2, RDS | 🔲 Upcoming |
 | 06 | Kubernetes Deployment on EKS | EKS, kubectl, Helm | 🔲 Upcoming |
@@ -41,7 +41,7 @@ I believe in continuous delivery! I am actively building and documenting cloud a
 | 11 | Disaster Recovery Multi-Region | S3 Replication, RDS Multi-AZ, Route 53 | 🔲 Upcoming |
 | 12 | Automated Cost Optimization | Lambda, CloudWatch, Billing | 🔲 Upcoming |
 | 13 | Self-Healing Infrastructure | Auto Scaling, CloudWatch Alarms | 🔲 Upcoming |
-| 14 | Database Migration with DMS | DMS, RDS MySQL, Aurora | 🔲 Upcoming |
+| 14 | Database Migration with DMS | DMS, RDS MySQL, Aurora | 🔲 Upcoming | 
 
 ## Azure Projects
 
